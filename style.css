@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #45a049;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid #4CAF50;
+  color: #4CAF50;
+}
+
+.btn.secondary:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #4CAF50, #2e8b57);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.feature-cards .card {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.feature-cards .card:hover {
+  transform: translateY(-10px);
+}
+
+.gallery {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonials {
+  background: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.pricing {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+ .pricing-cards .card {
+  background: #f9f9f9;
+  padding: 30px 20px 50px 20px; 
+  border-radius: 10px;
+  width: 250px;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pricing-cards .card .btn {
+  margin-top: 15px; 
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.pricing-cards .card.featured {
+  border: 2px solid #4CAF50;
+  transform: scale(1.05);
+}
+
+.newsletter {
+  background: #2e8b57;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+.newsletter button {
+  border-radius: 0 5px 5px 0;
+  border: none;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .socials {
+  margin-top: 10px;
+}
+
+footer .socials a {
+  margin: 0 10px;
+  display: inline-block;
+}
